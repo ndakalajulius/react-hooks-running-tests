@@ -176,7 +176,7 @@ Watch Usage
  › Press t to filter by a test name regex pattern.
  › Press Enter to trigger a test run.
 ```
-
+w
 Let's focus on the `Header.test.js` file first. To tell Jest to only run tests
 on this one file, press the **p** key in your terminal (this will let you filter
 out tests by their filename). In the next screen, type in `Header`:
@@ -203,7 +203,8 @@ import React from "react";
 function Header(props) {
   return <h1>hello from the Header!</h1>;
 }
-
+/* uncomment the line below to pass the test */
+          {/* hello from the Header! */
 export default Header;
 ```
 
